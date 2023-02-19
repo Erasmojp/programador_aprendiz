@@ -1,0 +1,10 @@
+#Contador de palavras
+from length import length
+names = ['Erasmo',
+         'joao',
+         'carol'
+         ]
+#length = [len(name) for name in names ]
+length = {name: len(name) for name in names}
+
+print(length)
